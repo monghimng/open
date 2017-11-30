@@ -50,8 +50,8 @@ public class Anagrams {
     }
 
     public static void main(String[] args) throws IOException {
-        testCase0();
-        testCase1();
+        //testCase0();
+        //testCase1();
         // offline: preprocess
         String fileStr = args[0];
         Anagrams A = new Anagrams(Paths.get(fileStr));
